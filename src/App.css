@@ -1,0 +1,229 @@
+:root {
+  color: #1D9BF0;
+
+}
+
+/* Main.css */
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.body-conainer {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20rem;
+
+  background-color: rgba(0, 0, 0, 0.00);
+
+}
+
+.body-conainer .left-container>svg {
+  height: 20rem;
+  width: 20rem;
+}
+
+.saprater {
+  width: 20rem;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.main-header {
+  font-size: 4rem;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.00);
+  border: 0 solid black;
+  box-sizing: border-box;
+  color: inherit;
+  display: inline;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: inherit;
+  word-wrap: break-word;
+  font-family: TwitterChirpExtendedHeavy, Verdana;
+
+}
+
+.signup-container {
+  width: 16rem;
+}
+
+.join-text {
+  margin-top: 3rem;
+  margin-bottom: .5rem;
+
+}
+
+.btn-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  width: 95%;
+  border: 1px solid black;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.apple-btn {
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-term {
+  font-size: smaller;
+  text-align: center;
+
+}
+
+.saprater {
+  text-align: center;
+}
+
+.service-link {
+  color: #1D9BF0;
+}
+
+.btn-bg {
+  background-color: #1D9BF0;
+}
+
+/* sign up container */
+
+
+.sign-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.signup-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.label-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  gap: 10px;
+  font-weight: 700;
+}
+
+.signup-input {
+  height: 2rem;
+  width: 20rem;
+  padding: 20px;
+}
+
+/* Home */
+
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1rem 5rem;
+}
+
+.leftsidebar-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-link {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  cursor: pointer;
+  /* border: 2px solid #000000;
+  border-radius: 20%; */
+}
+
+.tab-cont {
+  margin: 3rem 0rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-btn{
+  background-color:#1D9BF0 ;
+  color: white;
+  border-radius: 20px;
+}
+
+/* create post  */
+.post-status {
+  width: 100%;
+  height: auto;
+  background-color: #f4f2ee;
+}
+.post-status-class {
+  width: 80%;
+  height: 120px;
+  background-color: rgb(255, 254, 254);
+  border: 1px solid #b7b7b7;
+  border-radius: 7px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.open-post-modal {
+  width: 80%;
+  height: 50px;
+  text-align: left;
+  color: rgba(84, 84, 84, 0.89);
+  background-color: whitesmoke;
+  outline: nono;
+  cursor: pointer;
+  border: 1px solid #b7b7b7;
+  border-radius: 30px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: system-ui, sans-serif;
+}
+.open-post-modal:hover {
+  background-color: #dcdbdb;
+}
