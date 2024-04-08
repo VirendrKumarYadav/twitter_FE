@@ -1,0 +1,36 @@
+.post-status {
+  width: 100%;
+  height: auto;
+  background-color: #f4f2ee;
+  padding: 2rem 4rem;
+}
+.post-status-class {
+  width: 35rem;
+  height: 120px;
+  background-color: rgb(255, 254, 254);
+  border: 1px solid #b7b7b7;
+  border-radius: 7px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+}
+.open-post-modal {
+  
+  width: 80%;
+  height: 50px;
+  text-align: left;
+  color: rgba(84, 84, 84, 0.89);
+  background-color: whitesmoke;
+  outline: nono;
+  cursor: pointer;
+  border: 1px solid #b7b7b7;
+  border-radius: 30px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: system-ui, sans-serif;
+}
+.open-post-modal:hover {
+  background-color: #dcdbdb;
+}
